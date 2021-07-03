@@ -12,10 +12,12 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">    <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
+    <div class="">   <!--class="conrainer removed"  -->
       <div class="row">
         <div class="column left">
           <nav class="n bg-light sidebar">
@@ -198,60 +200,67 @@
           </nav>
           <div>.</div>
         </div>
-        <div class="column middle">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-8 p-3">
-                <div id="gen-inp">
-                  <div class="input-group px-2 py-2 mb-2">
-                    <div class="input-group-prepend">
-                      <div class="search input-group-text">
-                        <img class="img-fluid" src="assets/search.png" />
+        <div class="col-7 middle">
+                 
+          <div class="row justify-content-center">
+              <div class="col-10 p-3">
+                  <div id="gen-inp">
+                      <div class="input-group px-2 py-2 mb-2">
+                          <div class="input-group-prepend">
+                              <div class="search input-group-text">
+                                  <img class= "search img-fluid "src="assets/search.png">
+                              </div>
+                          </div>
+                           <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search your content">
                       </div>
-                    </div>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="inlineFormInputGroup"
-                      placeholder="Search your content"
-                    />
                   </div>
-                </div>
               </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-8 mt-5 mb-5">
-                <h1>Home</h1>
-              </div>
-            </div>
-            <div class="row mb-3 justify-content-center">
-              <div class="col-4">
-                <img src="assets/dropbox.png" class="img-fluid" />
-              </div>
-              <div class="col-5">
-                <h1>Project</h1>
-                <p>
-                  We should be ready to reveal the new project next week and we
-                  are very excited
-                </p>
-              </div>
-            </div>
-            <div class="row justify-content-center mt-5 mb-3">
-              <div class="col-4">
-                <h1>Recent</h1>
-              </div>
-              <div class="col-4">
-                <h1>Home</h1>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-8">
-                <h1>Home</h1>
-              </div>
-            </div>
           </div>
-        </div>
-        <div class="column right">
+          <div class="row justify-content-center">
+              <div class="col-10 mt-5 mb-5">
+                  <h1>Home</h1>
+                  
+              </div>
+          </div>
+          <div class="row mb-3 justify-content-center">
+              <div class="col-4 mx-5">
+                  <img src="assets/mazak.jpeg" class=" img-cent img-fluid">
+              </div>
+              <div class="col-5 p-3 mr-2">
+                  <h1 class="mb-3 mt-2">Project</h1>
+                  <p>We should be ready to reveal the new project next week and we are very excited</p>
+                  <div class="row project"></div>
+                  <div class="row"></div>
+              </div>
+          </div>
+          <div class="row justify-content-center mt-5 mb-3">
+              <div class="col-6">
+                  <h1>Recent</h1>
+              </div>
+              <div class="col-2">
+                  <div class="row"><button type="button" class="btn btn-default btn-lg">
+                      <i class="bi-grid" aria-hidden="true" style=" font-size: 2rem; border-radius: 5px;color: cornflowerblue;"></span> </i>
+                    </button>
+                    <button type="button" class="btn btn-default btn-lg">
+                      <i class="bi-justify" aria-hidden="true" style="font-size: 2rem; border-radius: 5px;color: cornflowerblue;"></span> </i>
+                    </button>
+                  </div>
+                  
+              </div>
+              <div class="col-1">
+                  <div class="row"><button type="button" class="btn btn-default btn-lg">
+                      <i class="bi-plus" aria-hidden="true" style=" font-size: 2rem; border-radius: 5px;color:white;background: cornflowerblue;"></span> </i>
+                    </button></div>
+              </div>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-8">
+                  <h1>Home</h1>
+  
+              </div>
+          </div>
+  </div>
+        <div class="col-3 right">
           <div class="row justify-content-end">
             <div>
               <svg
@@ -287,7 +296,40 @@
             <h2>Billie Eilish</h2>
             <h6>15MB Modified 3 hrs ago</h6>
           </div>
-          <div class="row justify-content-center"></div>
+          <div class="row justify-content-center m-3"><button type="button" class="btn btn-default btn-lg">
+            <i class="bi-link-45deg" aria-hidden="true" style=" font-size: 2rem; border-radius: 5px;color: cornflowerblue;"></span> </i>
+          </button>
+          <button type="button" class="btn btn-default btn-lg">
+            <i class="bi-three-dots-vertical" aria-hidden="true" style="font-size: 2rem; border-radius: 5px;color: cornflowerblue;"></span> </i>
+          </button>
+          <button type="button" class="btn btn-default btn-lg">
+            <i class="bi-play-fill" aria-hidden="true" style="font-size: 2rem; border-radius: 5px;color: cornflowerblue;"></span> </i>
+          </button>
+        </div>
+          <div class="row justify-content-center">
+            <div>
+              <svg
+                class="mb-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-bell"
+                viewBox="0 0 25 25"
+              >
+                <path
+                  d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"
+                />
+              </svg>
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+                class="img-lg rounded-circle mb-4"
+                alt="profile image"
+                height="30"
+                viewBox="0 0 30 30"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
