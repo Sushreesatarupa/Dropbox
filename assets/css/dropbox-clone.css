@@ -11,14 +11,14 @@ body {
 /*
  * Sidebar
  */
- .search{
-   width: 50px;
- }
-.right{
+.search {
+  width: 50px;
+}
+.right {
   position: absolute;
   right: 0%;
-top: 1px;
-background: #FDF1F1;
+  top: 1px;
+  background: linear-gradient(to bottom right, #ffceef 0%, #ffffff 100%);
 }
 .sidebar {
   position: fixed;
